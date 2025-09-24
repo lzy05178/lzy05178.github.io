@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zhiyuan Lin — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1 class="name">ZHIYUAN LIN</h1>
+      <p class="contact">
+        Phone: +65 8039 0401 <br>
+        E-mail: ZHIYUAN007@e.ntu.edu.sg
+      </p>
+      <hr/>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-head">
+          <h3>Nanyang Technological University</h3>
+          <span class="meta">expected 12/2025</span>
+        </div>
+        <p>Master of Science in Cyber Security (MSCS)</p>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>University of Ottawa</h3>
+          <span class="meta">06/2024</span>
+        </div>
+        <p>Honors Bachelor of Science in Computer Science, Data Science Option</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Project Experience</h2>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>IoT Lightweight Fingerprint Identification</h3>
+          <span class="meta">05/2025</span>
+        </div>
+        <ul>
+          <li>Designed a passive fingerprinting system to identify IoT devices by analyzing .pcap network captures.</li>
+          <li>Extracted header- and payload-level features (packet sizes, interarrival times, protocol-specific fields) to represent device traffic patterns.</li>
+          <li>Trained machine learning classifiers (Random Forest and similar models) to recognize and whitelist devices.</li>
+          <li>Evaluated performance on 10,000+ packets, achieving ~95% classification accuracy.</li>
+          <li>Demonstrated practical applications for IoT security monitoring, device verification, and network management.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Hybrid Ring Signature with RSA &amp; AES</h3>
+          <span class="meta">05/2025</span>
+        </div>
+        <ul>
+          <li>Implemented a hybrid cryptographic scheme combining RSA and AES-128 (CBC mode) to construct a ring signature system.</li>
+          <li>Developed functions for signature generation, verification, and recovery, demonstrating integration of asymmetric and symmetric primitives.</li>
+          <li>Showcased ability in applied cryptography and secure system design.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Secure Cryptographic Workflow Implementation</h3>
+          <span class="meta">10/2024</span>
+        </div>
+        <ul>
+          <li>Designed and implemented an end-to-end file security pipeline integrating SHA-512 hashing, RSA-4096 digital signatures, and AES-256 symmetric encryption.</li>
+          <li>Ensured confidentiality and authenticity by encrypting AES keys with RSA, and verifying integrity through digest comparison.</li>
+          <li>Showcased strong ability in applied cryptography and secure system design.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Python AES Visualization Library</h3>
+          <span class="meta">10/2024</span>
+        </div>
+        <ul>
+          <li>Developed a Python AES library with configurable rounds and step-by-step visualization for encryption workflows.</li>
+          <li>Analyzed ECB, CBC, and CTR modes, including edge-case testing with uniform keys/IVs and mismatched operations.</li>
+          <li>Created block-level visual demos by encrypting/decrypting RGBA images, illustrating internal AES transformations.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Canadian Public Health Data Analytics: COVID-19 Trends &amp; Vaccine Efficacy</h3>
+          <span class="meta">06/2024</span>
+        </div>
+        <ul>
+          <li>Designed and implemented a weekly-granularity COVID-19 data mart in PostgreSQL using dimensional modeling and ETL pipelines.</li>
+          <li>Built automated ETL workflows to handle missing values, smooth noisy data, and generate surrogate keys.</li>
+          <li>Developed OLAP queries to support multi-dimensional analysis across time, region, and demographic dimensions.</li>
+          <li>Applied anomaly detection (MinMax normalization, One-Class SVM) to uncover unusual vaccination and infection patterns.</li>
+          <li>Delivered interactive Power BI dashboards enabling data-driven public health insights.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Custom Neural Information Retrieval Engine</h3>
+          <span class="meta">06/2024</span>
+        </div>
+        <ul>
+          <li>Developed a hybrid IR pipeline combining an inverted index with transformer-based embeddings (BERT &amp; ALBERT via Hugging Face + PyTorch).</li>
+          <li>Implemented preprocessing (NLTK tokenization, stopword removal, stemming) and cosine-similarity re-ranking for semantic retrieval.</li>
+          <li>Optimized efficiency by precomputing embeddings, caching results, and applying batch processing.</li>
+          <li>Generated TREC-compatible outputs with trec_eval; compared BERT vs. ALBERT for accuracy/efficiency trade-offs.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Hotel Reservation Web Application</h3>
+          <span class="meta">03/2024</span>
+        </div>
+        <ul>
+          <li>Developed an online hotel booking system enabling customers to select room types and schedules.</li>
+          <li>Implemented back-end and UI logic using Java, JSP, JavaScript, HTML, and PostgreSQL.</li>
+          <li>Built database integration with Python + Tomcat servlets to manage customer and order data.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>UI/UX Design Projects</h3>
+          <span class="meta">12/2023</span>
+        </div>
+        <ul>
+          <li>Guitar Repair Store Website: Designed in Figma; implemented front-end with HTML, CSS, JavaScript, and Bootstrap.</li>
+          <li>Basketball Reservation Website: React + Bootstrap app with advanced filtering, bilingual EN/FR support, and interactive booking flow.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Additional Projects</h2>
+      <div class="item two-col">
+        <ul>
+          <li><strong>Metaheuristics for Knapsack Optimization (12/2023):</strong> Greedy, Simulated Annealing, and Genetic Algorithm; automated experiments with Pandas/NumPy; visualized convergence across 100+ trials with Matplotlib.</li>
+          <li><strong>Academic Timetable Web App (07/2023):</strong> PHP + XAMPP task manager for students with sorting, form input, and task-tracking features.</li>
+          <li><strong>Syntax Analyzer (06/2023):</strong> Stack- and linked-list–based analyzer for a simplified language; detailed error reporting; 20+ automated TDD cases with 100% coverage.</li>
+          <li><strong>Android Delivery App (11/2022):</strong> Mobile app prototype with structured function architecture; led UI design and back-end page management.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Award / Scholarship</h2>
+      <ul class="compact">
+        <li>Dean’s Honor List for outstanding academic achievement (Winter 2022)</li>
+        <li>Merit Scholarship for international student twice ($2000)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul class="compact">
+        <li><strong>Programming Languages &amp; Paradigms:</strong> Python, Java, C, C++, PHP, SQL, PostgreSQL</li>
+        <li><strong>Data Science &amp; Machine Learning:</strong> pandas, NumPy, scikit-learn, PyTorch, NLTK, BERT/ALBERT</li>
+        <li><strong>Web Development &amp; Front-End:</strong> HTML, CSS, JavaScript, React, Bootstrap</li>
+        <li><strong>Tools &amp; Platforms:</strong> Linux, Git, Power BI</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Zhiyuan Lin</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
